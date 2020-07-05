@@ -1,0 +1,8 @@
+node_modules
+server-build
+public
+practice
+.vscode
+dist
+*.rar
+*txt

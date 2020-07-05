@@ -1,6 +1,6 @@
 {
 	"parserOptions": {
-    "parser": "babel-eslint"
+    	"parser": "babel-eslint"
 	},
 	"extends": [
 	    "plugin:vue/essential", 
@@ -8,9 +8,14 @@
 	],  
 	"plugins": [
 	    "html",
-	    "vue"
+	    "vue",
+	    "vue-libs"
 	],
 	"rules": {
-      "no-tabs": "off"
+      "no-tabs": "off",
+      "no-new": "off",
+      'indent': ["off", "tab"],
+      'no-trailing-spaces': 0,
+      'no-mixed-spaces-and-tabs': 0
     }
 }
